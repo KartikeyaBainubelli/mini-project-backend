@@ -1,0 +1,4 @@
+102,Rahul,72
+104,Priya,88
+105,Kihtrak,90
+106,Karthik,34
