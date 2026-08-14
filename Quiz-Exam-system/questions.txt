@@ -1,0 +1,12 @@
+What is the output of print(2 + 3)?|4|5|6|7|2
+Which keyword is used to define a function in Python?|func|define|def|function|3
+Which data type is used to store multiple values in an ordered collection?|tuple|list|set|dict|2
+What does len() return?|The last element|The number of elements|The first element|The data type|2
+Which symbol is used for comments in Python?|//|/* */|#|--|3
+What is the output of print(10 // 3)?|3|3.33|4|1|1
+Which method adds an element to the end of a list?|add()|insert()|append()|push()|3
+Which file mode is used to add data to the end of a file?|r|w|a|x|3
+What does readlines() return?|A string|A list of lines|An integer|A dictionary|2
+Which statement is used to handle exceptions in Python?|if/else|try/except|for/while|match/case|2
+What is the first letter of Python?|P|Y|T|H|1
+What is Python?|lang|obj|idk|ask chatgpt?|4
