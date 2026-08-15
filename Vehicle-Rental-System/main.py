@@ -1,4 +1,4 @@
-from classes import VehicleId
+from classes import VehicleRentalSystem
 from classes import Vehicle
 
 
@@ -22,19 +22,24 @@ while True:
     match choice:
       
       case 1:
-        vehicle_id=VehicleId.val()
+        veho=VehicleRentalSystem()
+        vehicle_id=veho.val()
         vehicle_type=input("\nEnter the type of vehicle: ")
         brand=input("Enter the brand of the vehicle: ")
         model=input("Enter the model of the vehicle: ")
         price=int(input("Enter the price per day:"))
-        Vehicle.add_vehicle(vehicle_id,vehicle_type,brand,model,price,True)
+        vehi=Vehicle(vehicle_id,vehicle_type,brand,model,price,True)
+        vehi.add_vehicle()
         
         
-      # case 2:
-      #   print(200)
+      case 2:
+        vehw=VehicleRentalSystem()
+        vehw.view_vehicle()
         
-      # case 3:
-      #   print(300)
+      case 3:
+        search=input("Enter vehicle id or model :")
+        vehw=VehicleRentalSystem()
+        vehw.search_vehicle(search)
         
       # case 4:
       #   print(400)

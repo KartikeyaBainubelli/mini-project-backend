@@ -8,3 +8,5 @@
 108|Bike|KTM|Duke 390|1500|False
 109|Car|Maruti|Swift|1800|True
 110|Truck|Mahindra|Blazo|4500|True
+111|Car|MarutiSuzuki|Alto|2000|True
+112|Truck|Tata|Bolid|5000|True
