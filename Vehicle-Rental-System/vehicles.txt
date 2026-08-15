@@ -1,0 +1,10 @@
+101|Car|Toyota|Camry|2500|True
+102|Car|Honda|City|2000|True
+103|Bike|Yamaha|R15|1000|True
+104|Bike|Royal Enfield|Classic 350|1200|True
+105|Truck|Tata|Prima|5000|True
+106|Truck|Ashok Leyland|Dost|3500|False
+107|Car|Hyundai|Creta|2200|True
+108|Bike|KTM|Duke 390|1500|False
+109|Car|Maruti|Swift|1800|True
+110|Truck|Mahindra|Blazo|4500|True
