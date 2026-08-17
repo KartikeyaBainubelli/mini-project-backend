@@ -20,7 +20,6 @@ while True:
     choice=int(input("Enter your choice from (1-9):"))
     
     match choice:
-      
       case 1:
         veho=VehicleRentalSystem()
         vehicle_id=veho.val()
@@ -43,16 +42,25 @@ while True:
         
       # case 4:
       #   print(400)
-      #   value=int(input("Enter the number of days you want to rent: "))
+      #   value=i
         
       # case 5:
       #   print(500)
         
-      # case 6:
-      #   print(600)
+      case 6:
+        vehicle_id=input("\nEnter the id of the vehicle you want to update")
+        vehicle_type=input("Update- type of vehicle: ")
+        brand=input("Update- brand of the vehicle: ")
+        model=input("Update- model of the vehicle: ")
+        price=input("Update- price per day: ")
+        available=input("Update- Availability of vehicle: ")
+        vehi=Vehicle(vehicle_id,vehicle_type,brand,model,price,available)
+        vehi.update_vehicle()
         
-      # case 7:
-      #   print(700)
+      case 7:
+        vehicle_id=input("enter vehicle_id to delete the vehicle data: ")
+        vehi=VehicleRentalSystem()
+        vehi.delete_vehicle(vehicle_id)
         
       # case 8:
       #   print(800)

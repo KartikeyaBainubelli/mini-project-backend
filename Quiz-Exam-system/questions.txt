@@ -10,3 +10,5 @@ What does readlines() return?|A string|A list of lines|An integer|A dictionary|2
 Which statement is used to handle exceptions in Python?|if/else|try/except|for/while|match/case|2
 What is the first letter of Python?|P|Y|T|H|1
 What is Python?|lang|obj|idk|ask chatgpt?|4
+What is a nigga?|black|white|yellow|brown|1
+who is the lanja?|pranav|surya|surya|surya|1

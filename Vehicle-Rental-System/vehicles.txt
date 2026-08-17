@@ -1,6 +1,5 @@
 101|Car|Toyota|Camry|2500|True
 102|Car|Honda|City|2000|True
-103|Bike|Yamaha|R15|1000|True
 104|Bike|Royal Enfield|Classic 350|1200|True
 105|Truck|Tata|Prima|5000|True
 106|Truck|Ashok Leyland|Dost|3500|False

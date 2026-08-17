@@ -38,6 +38,17 @@ class VehicleRentalSystem:
       if found==False:
         print("\nNo such vehicle in the directory")
         
+  def delete_vehicle(self,vehicle_id):
+    newdata=[]
+    with open("vehicles.txt","r") as file:
+      data=file.readlines()
+      for lines in data:
+        x=lines.strip().split("|")
+        if vehicle_id != x[0]:
+          newdata.append(lines)
+    with open("vehicles.txt","w") as file:
+      file.writelines(newdata)
+        
         
       
 
@@ -71,6 +82,23 @@ class Vehicle:
     string="\n"+str(self.vehicle_id)+"|"+self.vehicle_type+"|"+self.brand+"|"+self.model+"|"+str(self.price_per_day)+"|"+str(self.available)
     with open("vehicles.txt","a") as file:
       file.write(string)
+      
+  def update_vehicle(self):
+    newdata=[]
+    with open("vehicles.txt","r") as file:
+      data=file.readlines()
+      string=self.vehicle_id+"|"+self.vehicle_type+"|"+self.brand+"|"+self.model+"|"+self.price_per_day+"|"+self.available+"\n"
+      for lines in data:
+        x=lines.strip().split("|")
+        if self.vehicle_id == x[0]:
+          newdata.append(string)
+        else:
+          newdata.append(lines)
+    with open("vehicles.txt","w") as file:
+      file.writelines(newdata)
+      
+  
+        
       
       
   
